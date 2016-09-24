@@ -2,20 +2,23 @@ body:hover{
 	box-shadow: 0 0 20px;
 	transform: translateY(-10px);
 	background-color: black;
-	justify-content: all;
+	transition: all .3s ease;
 
 }
 .container{
 	background-color: white;
 	color: black;
-	margin: 200px;
-	padding: all;
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
 }
 .col-xs-12{
 	text-align: center;
-
 }
 .col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2{
-	text-align-last: justify;
+	text-align: justify;
 
+}
+p{
+	text-align: justify!important;
 }
